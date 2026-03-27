@@ -3,7 +3,7 @@
   <img src="Images/icon.png" alt="icon" width="100">
 </p>
 
-# &emsp;&emsp;&emsp;&emsp; M3arab Translator &ensp;-&emsp; A&ensp;PowerToys Run <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="20">&ensp;Plugin
+ <h1 align="center"> M3arab Translator &ensp;-&emsp; A&ensp;PowerToys Run <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="20">&ensp;Plugin </h1>
 
 &nbsp;
 
@@ -15,7 +15,7 @@ A PowerToys Run plugin that converts Kuwaiti M3arab / Arabizi into Arabic script
 
 ![Demo](Images/demo.gif)
 
-### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;      *READ [INSTALLATION INSTRUCTIONS](#installation) AT THE VERY LEAST PLEASE* 
+<h3 align="center"> <i>READ <a href="#installation">INSTALLATION INSTRUCTIONS</a> AT THE VERY LEAST PLEASE</i> </h3>
 
 &nbsp;
 
