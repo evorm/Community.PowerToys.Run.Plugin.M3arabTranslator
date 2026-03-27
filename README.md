@@ -57,12 +57,12 @@ Demo showcasing `minimal` vs `low` reasoning effort levels.
 
 ## Usage
 
-Typing **kw** will activate M3arab Translator, then you type your query directly after a space (or after a ".").
+Inside Powertoys Run (alt+space), typing **kw** will activate M3arab Translator, then you type your query directly after a space (or after a ".").
 Pressing tab once the response is generated will select it and pressing Enter with it selected will copy the result to your clipboard.
 
 ### Examples
 
-Open PowerToys Run and type:
+Open PowerToys Run (alt+space) and type:
 
     kw shrayik
 
