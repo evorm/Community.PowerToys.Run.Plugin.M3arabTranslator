@@ -115,7 +115,7 @@ The following may be configured to your liking but come with default values:
 1. Download the [latest release files](https://github.com/evorm/Community.PowerToys.Run.Plugin.M3arabTranslator/releases/latest).
 2. Extract the zip, then copy the plugin folder into your PowerToys Run plugins directory.
 3. Restart PowerToys.
-4. Open PowerToys Settings (right click the icon in drop-down at bottom right of taskbar, click Settings) <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="16">
+4. Open PowerToys Settings (right click the <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="14"> icon in drop-down at bottom right of taskbar, click Settings) 
 5. Navigate to `Utilities -> PowerToys Run -> Plugins -> M3arab Translator` > Paste your [OpenAI API Key](#openai-api-key-information) here.
 6. Done
 
