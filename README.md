@@ -46,9 +46,13 @@ Prefixing a query with `.` temporarily increases reasoning effort by one step fo
 
 (These reasoning effort levels can also be set permanently in the plugin settings, so a . wouldn't have to be placed every time.)
 
-This can improve some outputs, but it also adds latency and still does not guarantee perfect accuracy. It is not recommended to use medium or high as they tend to take an unreasonable amount of time for simple prompts. Use only if desperate.
+This can improve some outputs, but it also adds latency and still does not guarantee perfect accuracy. 
+
+**It is not recommended to use medium or high as they tend to take an unreasonable amount of time for simple prompts. Use only if desperate.**
 
 ![Reasoning tradeoff demo](Images/demo-dot.gif)
+
+Demo showcasing `minimal` vs `low` reasoning effort levels.
 
 ## Usage
 
@@ -66,7 +70,7 @@ Temporary reasoning bump for a single query (more accurate but takes longer):
 
     kw . shrayik
 
-Pro-tip: you can include multiple dots `.` to step up in reasoning further, in case one isn't enough, but it isn't recommended to do so as it will increase reasoning time by a lot.
+Pro-tip: you can include multiple dots `.` to step up in reasoning further, in case one isn't enough, **but it isn't recommended to do so as it will increase reasoning time by *a lot*.**
 
 ## Settings
 
@@ -84,7 +88,9 @@ The following may be configured to your liking but come with default values:
 
 - `OpenAI Model` - Which AI model to use for translations, leave as-is unless you are knowledgable in AI
 - `Instructions` - Translation instructions, works fine as-is but you may edit if you have more specific instructions
-- `Reasoning Effort` - How long the AI should think, default is "minimal" for snappy responses, but you may set to either "low", "medium", or "high" for longer thinking time (and hopefully better translations... hopefully). Setting to "medium" and "high" is not recommended to set as default due to how unreasonably long they take.
+- `Reasoning Effort` - How long the AI should think, default is "minimal" for snappy responses, but you may set to either "low", "medium", or "high" for longer thinking time (and hopefully better translations... hopefully).
+  
+  **Setting to "medium" and "high" is not recommended to set as default due to how unreasonably long they take.**
 
 ## Known Limitations
 
