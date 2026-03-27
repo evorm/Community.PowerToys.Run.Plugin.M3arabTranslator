@@ -9,6 +9,8 @@ A PowerToys Run plugin that converts Kuwaiti M3arab / Arabizi into Arabic script
 
 ![Demo](Images/demo.gif)
 
+### READ INSTALLATION INSTRUCTIONS AT THE VERY LEAST PLEASE
+
 ## Table of Contents
 - [What it does](#what-it-does)
 - [Demo: Reasoning Tradeoff](#demo-reasoning-tradeoff)
@@ -76,9 +78,9 @@ In PowerToys:
 
 The following may be configured to your liking but come with default values:
 
-- `OpenAI Model`
-- `Instructions`
-- `Reasoning Effort`
+- `OpenAI Model` - Which AI model to use for translations, leave as-is unless you are knowledgable in AI
+- `Instructions` - Translation instructions, works fine as-is but you may edit if you have more specific instructions
+- `Reasoning Effort` - How long the AI should think, default is "minimal" for snappy responses, but you may set to either "low", "medium", or "high" for longer thinking time (and hopefully better translations... hopefully)
 
 ## Known Limitations
 
