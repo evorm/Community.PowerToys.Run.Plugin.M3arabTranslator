@@ -137,7 +137,6 @@ The following may be configured to your liking but come with default values:
 
 ## Installation
 
-### For users
 
 **Pre-Requisites:**
 
