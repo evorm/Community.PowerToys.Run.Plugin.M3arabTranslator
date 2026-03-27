@@ -57,7 +57,7 @@ Demo showcasing `minimal` vs `low` reasoning effort levels.
 
 ## Usage
 
-Inside Powertoys Run (alt+space), typing **kw** will activate M3arab Translator, then you type your query directly after a space (or after a ".").
+Inside PowerToys Run (alt+space), typing **kw** will activate M3arab Translator, then you type your query directly after a space (or after a ".").
 Pressing tab once the response is generated will select it and pressing Enter with it selected will copy the result to your clipboard.
 
 ### Examples
@@ -78,7 +78,7 @@ Pro-tip: you can include multiple dots `.` to step up in reasoning further, in c
 
 In PowerToys:
 
-`PowerToys Settings -> PowerToys Run -> Plugins -> M3arab Translator`
+`PowerToys Settings -> Utilities -> PowerToys Run -> Plugins -> M3arab Translator`
 
 **You MUST Configure:**
 
@@ -88,7 +88,7 @@ In PowerToys:
 
 The following may be configured to your liking but come with default values:
 
-- `OpenAI Model` - Which AI model to use for translations, leave as-is unless you are knowledgable in AI
+- `OpenAI Model` - Which AI model to use for translations, leave as-is unless you are knowledgeable in AI
 - `Instructions` - Translation instructions, works fine as-is but you may edit if you have more specific instructions
 - `Reasoning Effort` - How long the AI should think, default is "minimal" for snappy responses, but you may set to either "low", "medium", or "high" for longer thinking time (and hopefully better translations... hopefully).
   
@@ -107,14 +107,19 @@ The following may be configured to your liking but come with default values:
 
 **Pre-Requisites:**
 
-1. Install [PowerToys](https://github.com/microsoft/PowerToys/releases) and enable PowerToys Run in its settings if not already enabled.
+1. Install [PowerToys](https://github.com/microsoft/powertoys/releases) and enable PowerToys Run in its settings if not already enabled.
 2. Have a configured [OpenAI API Key](https://platform.openai.com/api-keys), look [below](#openai-api-key-information) for more information.
 
 **Plugin Installation:**
 
-1. Download the [latest release files](https://github.com/evorm/Community.Powertoys.Run.Plugin.M3arabTranslator/releases/latest).
+1. Download the [latest release files](https://github.com/evorm/Community.PowerToys.Run.Plugin.M3arabTranslator/releases/latest).
 2. Extract the zip, then copy the plugin folder into your PowerToys Run plugins directory.
 3. Restart PowerToys.
+4. Open PowerToys Settings (right click the icon in drop-down at bottom right of taskbar, click Settings) <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="16">
+5. Navigate to `Utilities -> PowerToys Run -> Plugins -> M3arab Translator` > Paste your [OpenAI API Key](#openai-api-key-information) here.
+6. Done
+
+&nbsp;
 
 Typical user plugin path (paste this into the top bar in File Explorer):
 
@@ -197,7 +202,7 @@ With **GPT-5 nano**, extra reasoning can increase cost because **reasoning token
 
 A release should include the runtime files only, such as:
 
-- `Community.PowerToys.Run.Plugin.M3arabTranslator.dll`
+- `Community.Powertoys.Run.Plugin.M3arabTranslator.dll`
 - `plugin.json`
 - `Images/icon.png`
 - any required dependency DLLs
@@ -217,7 +222,9 @@ Important project files:
 - `Main.cs`
 - `plugin.json`
 - `Images/icon.png`
-- `Community.PowerToys.Run.Plugin.M3arabTranslator.csproj`
+- `Community.Powertoys.Run.Plugin.M3arabTranslator.csproj`
+- `lib/Wox.Plugin.dll` from PowerToys v0.98.1
+- `lib/PowerToys.Settings.UI.Lib.dll` from PowerToys v0.98.1
 
 Generated folders like `bin/` and `obj/` should not be committed.
 
