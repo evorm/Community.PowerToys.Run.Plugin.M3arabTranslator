@@ -1,5 +1,7 @@
 
-![icon](Images/icon.png)
+<p align="center">
+  <img src="Images/icon.png" alt="icon" width="100">
+</p>
 
 # M3arab Translator - A PowerToys Run Plugin
 
@@ -7,6 +9,17 @@ A PowerToys Run plugin that converts Kuwaiti M3arab / Arabizi into Arabic script
 
 ![Demo](Images/demo.gif)
 
+## Table of Contents
+- [What it does](#what-it-does)
+- [Demo: Reasoning Tradeoff](#demo-reasoning-tradeoff)
+- [Usage](#usage)
+- [Settings](#settings)
+- [Known Limitations](#known-limitations)
+- [Installation](#installation)
+- [OpenAPI Key Information](#openapi-key-information)
+- [For Developers](#for-developers)
+
+  
 ## What it does
 
 - Converts Kuwaiti M3arab / Arabizi into Arabic script
@@ -18,7 +31,7 @@ A PowerToys Run plugin that converts Kuwaiti M3arab / Arabizi into Arabic script
   - instructions
   - reasoning effort
 
-## Demo: reasoning tradeoff
+## Demo: Reasoning Tradeoff
 
 The model is not perfectly reliable on difficult slang, profanity, fused words, or ambiguous spellings.
 
@@ -67,7 +80,7 @@ The following may be configured to your liking but come with default values:
 - `Instructions`
 - `Reasoning Effort`
 
-## Known limitations
+## Known Limitations
 
 - This is not a deterministic transliterator.
 - The model can still misread slang, profanity, fused words, or ambiguous Kuwaiti spellings.
@@ -84,7 +97,7 @@ The following may be configured to your liking but come with default values:
 
 **Plugin Installation:**
 
-1. Download the release files.
+1. Download the [release files](https://github.com/evorm/Community.Powertoys.Run.Plugin.M3arabTranslator/releases/tag/v1.0.0).
 2. Extract the zip, then copy the plugin folder into your PowerToys Run plugins directory.
 3. Restart PowerToys.
 
@@ -146,7 +159,7 @@ Those are rough estimates, not guarantees, but the point is simple: a few normal
 &nbsp;
 
 
-## DEVELOPERS
+## For Developers
 ### Release contents
 
 A release should include the runtime files only, such as:
@@ -158,13 +171,13 @@ A release should include the runtime files only, such as:
 
 Do not ship source files, `bin/`, or `obj/` in the release zip.
 
-## Building
+### Building
 
 From the project folder:
 
     dotnet build -c Release
 
-## Source layout
+### Source layout
 
 Important project files:
 
@@ -178,4 +191,4 @@ Generated folders like `bin/` and `obj/` should not be committed.
 
 ## License
 
-MIT
+[MIT](LICENSE)
