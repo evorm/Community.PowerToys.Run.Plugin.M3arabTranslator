@@ -3,7 +3,8 @@
   <img src="Images/icon.png" alt="icon" width="100">
 </p>
 
- <h1 align="center"> M3arab Translator -&ensp; A PowerToys Run <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="20">&ensp;Plugin </h1>
+ <h1 align="center"> M3arab Translator </h1>
+<h2 align="center"> A PowerToys Run <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="20">&ensp;Plugin </h2>
 
 &nbsp;
 
@@ -271,7 +272,15 @@ Important project files:
 
 Generated folders like `bin/` and `obj/` should not be committed.
 
+&nbsp;
 
+## Credits
+
+- Logo: https://ar.wikipedia.org/wiki/%D8%B9%D9%8A%D9%86_(%D8%AD%D8%B1%D9%81) 
+- PowerToys icon: https://commons.wikimedia.org/wiki/File:2020_PowerToys_Icon.svg
+
+&nbsp;
+   
 ## License
 
 [MIT](LICENSE)
