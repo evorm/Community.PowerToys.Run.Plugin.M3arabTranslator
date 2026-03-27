@@ -321,7 +321,7 @@ namespace Community.PowerToys.Run.Plugin.M3arabTranslator
             {
                 Content = new TextBlock
                 {
-                    Text = "Configure OpenAIKey and Model in PowerToys Settings → PowerToys Run → Plugins → M3arab Translator.",
+                    Text = "Configure OpenAI API Key in PowerToys Settings → PowerToys Run → Plugins → M3arab Translator.",
                     TextWrapping = TextWrapping.Wrap,
                     Margin = new Thickness(10),
                 }
