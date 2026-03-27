@@ -49,7 +49,7 @@ This can improve some outputs, but it also adds latency and still does not guara
 ## Usage
 
 Typing **kw** will activate M3arab Translator, then you type your query directly after a space (or after a ".").
-Pressing tab will select the query and pressing Enter with it selected will copy the result to your clipboard.
+Pressing tab once the response is generated will select it and pressing Enter with it selected will copy the result to your clipboard.
 
 ### Examples
 
