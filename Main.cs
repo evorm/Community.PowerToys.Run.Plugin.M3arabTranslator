@@ -159,10 +159,16 @@ namespace Community.PowerToys.Run.Plugin.M3arabTranslator
 
             var effectiveReasoningEffort = _reasoningEffort;
 
-            if (input.StartsWith("."))
+            var dotCount = 0;
+            while (dotCount < input.Length && input[dotCount] == '.')
+                dotCount++;
+
+            if (dotCount > 0)
             {
-                input = input.Substring(1).TrimStart();
-                effectiveReasoningEffort = BumpReasoningEffort(_reasoningEffort);
+                input = input.Substring(dotCount).TrimStart();
+
+                for (var i = 0; i < dotCount; i++)
+                    effectiveReasoningEffort = BumpReasoningEffort(effectiveReasoningEffort);
 
                 if (string.IsNullOrEmpty(input))
                     return new List<Result>();
