@@ -4,7 +4,7 @@
 </p>
 
  <h1 align="center"> M3arab Translator </h1>
-<h2 align="center"> A PowerToys Run <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="20">&ensp;Plugin </h2>
+<h2 align="center"> A&ensp;PowerToys Run <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="20">&ensp; Plugin </h2>
 
 &nbsp;
 
