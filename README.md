@@ -70,7 +70,8 @@ Temporary reasoning bump for a single query (more accurate but takes longer):
 
     kw . shrayik
 
-Pro-tip: you can include multiple dots `.` to step up in reasoning further, in case one isn't enough, **but it isn't recommended to do so as it will increase reasoning time by *a lot*.**
+Pro-tip: you can include multiple dots `.` to step up in reasoning further, in case one isn't enough,     
+**but it isn't recommended to step up reasoning too far as it will increase reasoning time by *a lot*.**
 
 ## Settings
 
