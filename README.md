@@ -44,7 +44,9 @@ Prefixing a query with `.` temporarily increases reasoning effort by one step fo
 - `medium -> high`
 - `high -> high`
 
-This can improve some outputs, but it also adds latency and still does not guarantee perfect accuracy.
+(These reasoning effort levels can also be set permanently in the plugin settings, so a . wouldn't have to be placed every time.)
+
+This can improve some outputs, but it also adds latency and still does not guarantee perfect accuracy. It is not recommended to use medium or high as they tend to take an unreasonable amount of time for simple prompts. Use only if desperate.
 
 ![Reasoning tradeoff demo](Images/demo-dot.gif)
 
@@ -60,9 +62,11 @@ Open PowerToys Run and type:
     kw shrayik
 
 
-Temporary reasoning bump for a single query:
+Temporary reasoning bump for a single query (more accurate but takes longer):
 
     kw . shrayik
+
+Pro-tip: you can include multiple dots `.` to step up in reasoning further, in case one isn't enough, but it isn't recommended to do so as it will increase reasoning time by a lot.
 
 ## Settings
 
@@ -80,7 +84,7 @@ The following may be configured to your liking but come with default values:
 
 - `OpenAI Model` - Which AI model to use for translations, leave as-is unless you are knowledgable in AI
 - `Instructions` - Translation instructions, works fine as-is but you may edit if you have more specific instructions
-- `Reasoning Effort` - How long the AI should think, default is "minimal" for snappy responses, but you may set to either "low", "medium", or "high" for longer thinking time (and hopefully better translations... hopefully)
+- `Reasoning Effort` - How long the AI should think, default is "minimal" for snappy responses, but you may set to either "low", "medium", or "high" for longer thinking time (and hopefully better translations... hopefully). Setting to "medium" and "high" is not recommended to set as default due to how unreasonably long they take.
 
 ## Known Limitations
 
@@ -100,7 +104,7 @@ The following may be configured to your liking but come with default values:
 
 **Plugin Installation:**
 
-1. Download the [release files](https://github.com/evorm/Community.Powertoys.Run.Plugin.M3arabTranslator/releases/tag/v1.0.0).
+1. Download the [latest release files](https://github.com/evorm/Community.Powertoys.Run.Plugin.M3arabTranslator/releases/latest).
 2. Extract the zip, then copy the plugin folder into your PowerToys Run plugins directory.
 3. Restart PowerToys.
 
@@ -139,9 +143,9 @@ This plugin usually sends a **small GPT-5 nano request**. OpenAI’s published p
 - **Input:** $0.05 per 1 million tokens
 - **Output:** $0.40 per 1 million tokens
 
-In normal use, this plugin is usually **very cheap**.
+In normal use, this plugin is usually **very cheap** (especially on `minimal` reasoning).
 
-A typical short query is roughly:
+A typical `minimal` query is roughly:
 - about **150–250 input tokens**
 - about **10–40 output tokens**
 
@@ -149,9 +153,27 @@ That works out to roughly:
 
 - **about $0.00001 to $0.00003 per request**
 - **about $0.001 to $0.003 for 100 requests**
-- **about $0.1 to $0.3 for 10,000 requests**
+- **about $0.10 to $0.30 for 10,000 requests**
 
 Those are rough estimates, not guarantees, but the point is simple: a few normal transliteration requests cost basically nothing.
+
+### What happens if you use `low`, `medium`, or `high` reasoning?
+
+The prices above are the **baseline** for short requests and assume the model does not spend much extra effort reasoning.
+
+With **GPT-5 nano**, extra reasoning can increase cost because **reasoning tokens are billed as output tokens**. OpenAI notes that reasoning-token usage can range from **a few hundred to tens of thousands** depending on task complexity.
+
+#### So, very roughly, if your baseline estimate is:
+
+- **about $0.10 to $0.30 per 10,000 requests** on `minimal`
+
+#### then you can think of it like this:
+
+- **`minimal`**: about **$0.10 to $0.30 per 10,000 requests**
+- **`low`**: about **$0.50 to $0.70 per 10,000 requests**
+- **`medium`**: about **$2.10 to $2.30 per 10,000 requests**
+- **`high`**: about **$4.10 to $4.30 per 10,000 requests**
+
 
 ### Important
 
