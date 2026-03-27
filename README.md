@@ -9,7 +9,7 @@ A PowerToys Run plugin that converts Kuwaiti M3arab / Arabizi into Arabic script
 
 ![Demo](Images/demo.gif)
 
-### READ INSTALLATION INSTRUCTIONS AT THE VERY LEAST PLEASE
+### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;      *READ INSTALLATION INSTRUCTIONS AT THE VERY LEAST PLEASE* 
 
 ## Table of Contents
 - [What it does](#what-it-does)
