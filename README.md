@@ -3,13 +3,23 @@
   <img src="Images/icon.png" alt="icon" width="100">
 </p>
 
-# M3arab Translator - A PowerToys Run Plugin
+# &emsp;&emsp;&emsp;&emsp; M3arab Translator &ensp;-&emsp; A&ensp;PowerToys Run <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="20">&ensp;Plugin
+
+&nbsp;
 
 A PowerToys Run plugin that converts Kuwaiti M3arab / Arabizi into Arabic script using the OpenAI Responses API.
 
+&nbsp;
+
+&nbsp;
+
 ![Demo](Images/demo.gif)
 
-### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;      *READ INSTALLATION INSTRUCTIONS AT THE VERY LEAST PLEASE* 
+### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;      *READ [INSTALLATION INSTRUCTIONS](#installation) AT THE VERY LEAST PLEASE* 
+
+&nbsp;
+
+&nbsp;
 
 ## Table of Contents
 - [What it does](#what-it-does)
@@ -22,6 +32,9 @@ A PowerToys Run plugin that converts Kuwaiti M3arab / Arabizi into Arabic script
 - [Rough API Cost](#rough-api-cost)
 - [For Developers](#for-developers)
 
+  &nbsp;
+
+  &nbsp;
   
 ## What it does
 
@@ -29,10 +42,14 @@ A PowerToys Run plugin that converts Kuwaiti M3arab / Arabizi into Arabic script
 - Uses configurable OpenAI instructions from PowerToys settings
 - Copies the result to the clipboard when selected
 - Lets you configure:
-  - OpenAI API key
-  - model
-  - instructions
-  - reasoning effort
+  - **OpenAI API key**
+  - **AI model** to generate translation
+  - **instructions** to the model for translating
+  - **reasoning effort** (how long the model should think)
+ 
+    &nbsp;
+
+    &nbsp;
 
 ## Demo: Reasoning Tradeoff
 
@@ -53,7 +70,11 @@ This can improve some outputs, but it also adds latency and still does not guara
 
 ![Reasoning tradeoff demo](Images/demo-dot.gif)
 
-Demo showcasing `minimal` vs `low` reasoning effort levels.
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Demo showcasing `minimal` vs `low` reasoning effort levels.
+
+&nbsp;
+
+&nbsp;
 
 ## Usage
 
@@ -74,9 +95,13 @@ Temporary reasoning bump for a single query (more accurate but takes longer):
 Pro-tip: you can include multiple dots `.` to step up in reasoning further, in case one isn't enough,     
 **but it isn't recommended to step up reasoning too far as it will increase reasoning time by *a lot*.**
 
+&nbsp;
+
+&nbsp;
+
 ## Settings
 
-In PowerToys:
+In PowerToys <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="14"> :
 
 `PowerToys Settings -> Utilities -> PowerToys Run -> Plugins -> M3arab Translator`
 
@@ -94,12 +119,20 @@ The following may be configured to your liking but come with default values:
   
   **Setting to "medium" and "high" is not recommended to set as default due to how unreasonably long they take.**
 
+&nbsp;
+
+&nbsp;
+
 ## Known Limitations
 
 - This is not a deterministic transliterator.
 - The model can still misread slang, profanity, fused words, or ambiguous Kuwaiti spellings.
 - Higher reasoning effort may improve some outputs, but also increases latency.
 - Output quality depends heavily on the active instructions and the model being used.
+
+&nbsp;
+
+&nbsp;
 
 ## Installation
 
@@ -127,6 +160,10 @@ Typical user plugin path (paste this into the top bar in File Explorer):
 
 ![Install Path](Images/plugin-path.png)
 
+&nbsp;
+
+&nbsp;
+
 ## OpenAI API Key Information 
 
 This plugin uses the **OpenAI API**, so you need your **own API key** and **API billing**.    
@@ -148,6 +185,10 @@ OpenAI says API keys are created at the **project** level, and you should keep t
 3. Buy prepaid credits if you want a fixed spending buffer. **Make sure to turn off auto recharge if you do not intend to automatically pay once it runs out**.
 
 OpenAI supports **prepaid billing**. The minimum prepaid purchase is **$5**. Prepaid credits expire after **1 year** and are **non-refundable**.
+
+&nbsp;
+
+&nbsp;
 
 ## Rough API Cost
 
@@ -193,6 +234,8 @@ With **GPT-5 nano**, extra reasoning can increase cost because **reasoning token
 - Keep your API key private.
 - Do **not** post it publicly or commit it to GitHub.
 - If the key is leaked, delete it and make a new one from the same API Keys page.
+
+&nbsp;
 
 &nbsp;
 
