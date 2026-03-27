@@ -16,7 +16,7 @@ A PowerToys Run plugin that converts Kuwaiti M3arab / Arabizi into Arabic script
 - [Settings](#settings)
 - [Known Limitations](#known-limitations)
 - [Installation](#installation)
-- [OpenAPI Key Information](#openapi-key-information)
+- [OpenAI API Key Information](#openai-api-key-information)
 - [For Developers](#for-developers)
 
   
