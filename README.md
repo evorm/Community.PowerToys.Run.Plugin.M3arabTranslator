@@ -19,6 +19,7 @@ A PowerToys Run plugin that converts Kuwaiti M3arab / Arabizi into Arabic script
 - [Known Limitations](#known-limitations)
 - [Installation](#installation)
 - [OpenAI API Key Information](#openai-api-key-information)
+- [Rough API Cost](#rough-api-cost)
 - [For Developers](#for-developers)
 
   
@@ -143,7 +144,7 @@ OpenAI says API keys are created at the **project** level, and you should keep t
 
 OpenAI supports **prepaid billing**. The minimum prepaid purchase is **$5**. Prepaid credits expire after **1 year** and are **non-refundable**.
 
-### Rough cost for using this plugin
+## Rough API Cost
 
 This plugin usually sends a **small GPT-5 nano request**. OpenAI’s published pricing for GPT-5 nano is:
 
