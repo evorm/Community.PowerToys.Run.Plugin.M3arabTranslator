@@ -1,0 +1,14 @@
+{
+  "ID": "A9D3B5F2C1E44D57B8A9F6C3E2D1A7B0",
+  "ActionKeyword": "kw",
+  "IsGlobal": false,
+  "Name": "M3arab Translator",
+  "Author": "evorm",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.M3arabTranslator.dll",
+  "IcoPathDark": "Images\\icon.png",
+  "IcoPathLight": "Images\\icon.png",
+  "DynamicLoading": true
+}

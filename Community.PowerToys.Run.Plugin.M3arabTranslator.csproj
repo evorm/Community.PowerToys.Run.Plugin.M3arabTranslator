@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- PowerToys Run plugins run on Windows and commonly need WPF types (e.g., Clipboard). -->
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Must match plugin.json ExecuteFileName -->
+    <AssemblyName>Community.PowerToys.Run.Plugin.M3arabTranslator</AssemblyName>
+    <RootNamespace>Community.PowerToys.Run.Plugin.M3arabTranslator</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Reference the same assemblies PowerToys uses (copied into ./lib). -->
+    <Reference Include="Wox.Plugin">
+      <HintPath>lib\Wox.Plugin.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="Microsoft.PowerToys.Settings.UI.Library">
+      <HintPath>lib\PowerToys.Settings.UI.Lib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Ensure these ship next to the built DLL so PowerToys can load the plugin + icon. -->
+    <None Include="plugin.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Images\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
