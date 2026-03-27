@@ -72,7 +72,7 @@ In PowerToys:
 
 - `OpenAI API Key`
 
-**You will need an API key from OpenAI.** Look [**below**](#openapi-key-information) for more information.
+**You will need an API key from OpenAI.** Look [**below**](#openai-api-key-information) for more information.
 
 The following may be configured to your liking but come with default values:
 
@@ -94,6 +94,7 @@ The following may be configured to your liking but come with default values:
 **Pre-Requisites:**
 
 1. Install [PowerToys](https://github.com/microsoft/PowerToys/releases) and enable PowerToys Run in its settings if not already enabled.
+2. Have a configured [OpenAI API Key](https://platform.openai.com/api-keys), look [below](#openai-api-key-information) for more information.
 
 **Plugin Installation:**
 
@@ -107,7 +108,7 @@ Typical user plugin path (paste this into the top bar in File Explorer):
 
 ![Install Path](Images/plugin-path.png)
 
-## OpenAPI Key Information 
+## OpenAI API Key Information 
 
 This plugin uses the **OpenAI API**, so you need your **own API key** and **API billing**.    
 A normal ChatGPT subscription does **not** cover API usage.
