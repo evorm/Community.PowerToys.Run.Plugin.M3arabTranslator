@@ -202,7 +202,7 @@ With **GPT-5 nano**, extra reasoning can increase cost because **reasoning token
 
 A release should include the runtime files only, such as:
 
-- `Community.Powertoys.Run.Plugin.M3arabTranslator.dll`
+- `Community.PowerToys.Run.Plugin.M3arabTranslator.dll`
 - `plugin.json`
 - `Images/icon.png`
 - any required dependency DLLs
@@ -222,7 +222,7 @@ Important project files:
 - `Main.cs`
 - `plugin.json`
 - `Images/icon.png`
-- `Community.Powertoys.Run.Plugin.M3arabTranslator.csproj`
+- `Community.PowerToys.Run.Plugin.M3arabTranslator.csproj`
 - `lib/Wox.Plugin.dll` from PowerToys v0.98.1
 - `lib/PowerToys.Settings.UI.Lib.dll` from PowerToys v0.98.1
 
