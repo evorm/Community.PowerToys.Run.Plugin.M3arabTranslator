@@ -3,7 +3,7 @@
   <img src="Images/icon.png" alt="icon" width="100">
 </p>
 
- <h1 align="center"> M3arab Translator &ensp;-&emsp; A&ensp;PowerToys Run <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="20">&ensp;Plugin </h1>
+ <h1 align="center"> M3arab Translator -&ensp; A PowerToys Run <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="20">&ensp;Plugin </h1>
 
 &nbsp;
 
@@ -70,7 +70,7 @@ This can improve some outputs, but it also adds latency and still does not guara
 
 ![Reasoning tradeoff demo](Images/demo-dot.gif)
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Demo showcasing `minimal` vs `low` reasoning effort levels.
+<p align="center"> Demo showcasing `minimal` vs `low` reasoning effort levels. </p>
 
 &nbsp;
 
