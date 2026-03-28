@@ -79,8 +79,10 @@ This can improve some outputs, but it also adds latency and still does not guara
 
 ## Usage
 
-Inside PowerToys Run (alt+space), typing **kw** will activate M3arab Translator, then you type your query directly after a space (or after a ".").
-Pressing tab once the response is generated will select it and pressing Enter with it selected will copy the result to your clipboard.
+1. Launch PowerToys Run (alt+space)
+2. Typing **kw** will activate M3arab Translator
+3. Type your query directly after a space (or after a space and a ".").
+4. Pressing tab once the response is generated will select it and pressing Enter with it selected will copy the result to your clipboard.
 
 ### Examples
 
@@ -150,7 +152,7 @@ The following may be configured to your liking but come with default values:
 3. Restart PowerToys.
 4. Open PowerToys Settings (right click the <img src="Images/powertoys-icon.png" alt="powertoys-icon" width="14"> icon in drop-down at bottom right of taskbar, click Settings) 
 5. Navigate to `Utilities -> PowerToys Run -> Plugins -> M3arab Translator` > Paste your [OpenAI API Key](#openai-api-key-information) here.
-6. Done
+6. Done! Check [Usage](#usage) for further instructions.
 
 &nbsp;
 
