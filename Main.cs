@@ -54,7 +54,7 @@ namespace Community.PowerToys.Run.Plugin.M3arabTranslator
         private string _lastReasoningEffort = "";
 
         public string Name => "M3arab Translator";
-        public string Description => "Phonetically converts Kuwaiti m3arab/Arabizi to Arabic and copies to clipboard";
+        public string Description => "Phonetically converts Kuwaiti M3arab/Arabizi to Arabic and copies to clipboard";
 
         private static string BumpReasoningEffort(string effort)
         {
