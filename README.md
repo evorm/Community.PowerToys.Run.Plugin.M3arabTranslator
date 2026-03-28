@@ -71,7 +71,7 @@ This can improve some outputs, but it also adds latency and still does not guara
 
 ![Reasoning tradeoff demo](Images/demo-dot.gif)
 
-<p align="center"> Demo showcasing `minimal` vs `low` reasoning effort levels. </p>
+<p align="center"> Demo showcasing <code>minimal</code> vs <code>low</code> reasoning effort levels. </p>
 
 &nbsp;
 
