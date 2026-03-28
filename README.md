@@ -63,7 +63,7 @@ Prefixing a query with `.` temporarily increases reasoning effort by one step fo
 - `medium -> high`
 - `high -> high`
 
-(These reasoning effort levels can also be set permanently in the plugin settings, so a . wouldn't have to be placed every time.)
+(These reasoning effort levels can also be set permanently in the plugin settings, so a `.` wouldn't have to be placed every time.)
 
 This can improve some outputs, but it also adds latency and still does not guarantee perfect accuracy. 
 
@@ -81,7 +81,7 @@ This can improve some outputs, but it also adds latency and still does not guara
 
 1. Launch PowerToys Run (alt+space)
 2. Typing **kw** will activate M3arab Translator
-3. Type your query directly after a space (or after a space and a ".").
+3. Type your query directly after a space (or after a space and a `.`).
 4. Pressing tab once the response is generated will select it and pressing Enter with it selected will copy the result to your clipboard.
 
 ### Examples
