@@ -30,7 +30,7 @@ namespace Community.PowerToys.Run.Plugin.M3arabTranslator
             "Be literal and preserve meaning, wording, and profanity. Do not censor, soften, replace, omit, or euphemize vulgar, sexual, insulting, or offensive words. " +
             "Keep word order unless a tiny spelling adjustment is needed for correct Arabic writing. " +
             "Use context to resolve ambiguous vowels and consonants. " +
-            "Examples: 6ag3a -> طقعة, zg -> زق, gary -> قاري, chai -> جاي, chub -> جب, diwaniya -> ديوانية, gahwa -> قهوة, shrayk -> شرايك. shraych -> شرايج. shfeech -> شفيج. " +
+            "Examples: 6ag3a -> طقعة, ok -> أوكي, zg -> زق, gary -> قاري, chai -> جاي, chub -> جب, diwaniya -> ديوانية, gahwa -> قهوة, shrayk -> شرايك. shraych -> شرايج. shfeech -> شفيج. " +
             "Do not explain. Do not paraphrase. Return only the final Arabic text with no tashkeel, even if unsure do not ask.";
 
         private const string DefaultReasoningEffort = "minimal";
