@@ -279,6 +279,7 @@ Generated folders like `bin/` and `obj/` should not be committed.
 
 - Logo: https://ar.wikipedia.org/wiki/%D8%B9%D9%8A%D9%86_(%D8%AD%D8%B1%D9%81) 
 - PowerToys icon: https://commons.wikimedia.org/wiki/File:2020_PowerToys_Icon.svg
+- Stephegg: `.` stacking idea
 
 &nbsp;
    
