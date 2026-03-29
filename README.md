@@ -249,8 +249,8 @@ A release should include the runtime files only, such as:
 
 - `Community.PowerToys.Run.Plugin.M3arabTranslator.dll`
 - `plugin.json`
+- `Community.PowerToys.Run.Plugin.M3arabTranslator.deps.json`
 - `Images/icon.png`
-- any required dependency DLLs
 
 Do not ship source files, `bin/`, or `obj/` in the release zip.
 
